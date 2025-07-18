@@ -7,25 +7,35 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-     
+
+    
+
+    <div class="sign"> 
     <fieldset>
         <h1>Sign Up Form</h1>
-        <form action="">
-            <label for="First Name"> First Name: 
-                <input type="text" name="First Name" placeholder="First Name" id="fname">  
+        <form id="signupform">
+            <label for="First Name"> 
+                <input type="text" name="First Name" placeholder="First Name" id="firstname">  
             </label>
-            <label for="Last Name"> Last Name:
-                <input type="text" name="Last Name" placeholder="Last Name" id="lname">  
+            <label for="Last Name">
+                <input type="text" name="Last Name" placeholder="Last Name" id="lastname">  
             </label>
-            <label for="password">Password
-                <input type="text" name="Password" placeholder="Password" id="psw"> 
+            <label for="Email">
+                <input type="email" name="email" placeholder="Email" id="email">  
             </label>
-            <label for="password"> Confirm Password:
-                <input type="text" name="password" placeholder="Confirm Password">
+            <label for="password">
+                <input type="password" name="Password" placeholder="Password" id="password"> 
             </label>
-            <button>Sign up</button>
+            <label for="confirmPassword">
+                <input type="password" name="confirmPassword" placeholder="Confirm Password" id="confirmPassword">
+            </label>
+            <button type="submit">Sign up</button>
+            <p class="error" id="signupError"></p>
         </form>
+        <p class="link">Already have an account?<a href="form.html">Login</a></p>
     </fieldset>
-     
+    </div>
+
+    <script src="JS/form.js"></script>
 </body>
 </html>

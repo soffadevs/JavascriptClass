@@ -7,20 +7,24 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-     
+    <div class="login">
     <fieldset>
         <h1>Login Form</h1>
-        <form action="">
+        <form action="" id="login">
             
-            <label for="email"> Email:
-                <input type="email" name="email" placeholder="Enter Your Email" id="Email">  
+            <label for="email">
+                <input type="email" name="email" placeholder="Enter Your Email" id="email">  
             </label>
-            <label for="password">Password
-                <input type="text" name="password" placeholder="Password" id="psw"> 
+            <label for="password">
+                <input type="text" name="password" placeholder="Password" id="password"> 
             </label>
-            <button>login</button>
+            <button type="submit">login</button>
+            <p class="error" id="logError"></p>
         </form>
-    </fieldset>
+            <p  class="link">Don't have an accout?<a href="index.html">Sign up</a></p>    </fieldset>
+    </div>
      
+
+    <script src="JS/login.js"></script>
 </body>
 </html>

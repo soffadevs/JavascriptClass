@@ -9,11 +9,6 @@
    justify-content: center;
    align-items: center;
    margin:300px auto;
-} 
-label{
-   padding: 10px;
-   font-size: 20px;
-   font-weight: 550;
 }
 
  fieldset{
@@ -22,8 +17,6 @@ label{
    padding: 40px;  
    max-width: 400px;
    height: 50%;
-   align-self: center;
-   justify-self: center;
 } 
  input{
     padding-top: 12px;
@@ -34,7 +27,7 @@ label{
     outline: none;
     background-color: transparent;
     border-bottom: 1px solid;
-    width: 100%;
+    width: 50%;
     height: 100%;
     padding: 10px;
  }
@@ -61,8 +54,4 @@ label{
  }
  .link > a{
    padding: 5px;
- }
-
- .error{
-   color: red;
  }
