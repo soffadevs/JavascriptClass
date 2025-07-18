@@ -20,7 +20,7 @@ document.getElementById("signupform").addEventListener("submit", function(e){
     }
 
 
-    if (password < 10){
+    if (password.length < 10){
         errorEl.textContent = "password must be more than 10 digit"
         return;
     }
